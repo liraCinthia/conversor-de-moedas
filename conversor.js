@@ -7,6 +7,6 @@ function Converter() {
   //console.log(valorEmReal);
 
   var elementoValorConvertido = document.getElementById('valorConvertido');
-  var valorConvertido = 'O resultado em euro é R$ ' + valorEmReal;
+  var valorConvertido = 'O resultado em real é R$ ' + valorEmReal;
   elementoValorConvertido.innerHTML = valorConvertido;
 }
